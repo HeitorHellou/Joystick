@@ -3,11 +3,13 @@
 // SETUP
 const boolean UseLeftJoystick = true;
 const boolean InvertLeftYAxis = false;
+const boolean UseRightJoystick = true;
+const boolean InvertRightYAxis = false;
 
 const int ADC_Max = 1023;  // 10 bit
 
 // Joystick Pins
-// Set up the analogic pins
+// Set up the analog pins
 const int Pin_LeftJoyX = A1;
 const int Pin_LeftJoyY = A0;
 const int Pin_RightJoyX = A3;
